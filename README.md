@@ -16,7 +16,7 @@ What isn't shown in the schematic is a transistor between 5V power and one of th
 
 I wrote the code for the arduino in [Visual Studio 2017 Community Edition](https://visualstudio.microsoft.com/downloads/) with the [VisualMicro](https://www.visualmicro.com/) extension. Since VisualMicro also uses .ino files, you don't need the extension to work with the code, although I highly recommend it 😊. Before moving on to soldering to prototype I laid out all connections in [Fritzing](http://fritzing.org/home/) as seen below. To plot something choose the software of your choice to generate gcode based on the shape you want the laser to engrave. The laser turns on when the Z axis is set below zero, so the best settings are usually the defaults used in milling. Then rename the generated gcode to gcode.txt and upload it to a micro-sd card. Plug in the sd-card, turn on the arduino and VOILA!
 
-![Plotter Driver Layout](images/schematic.png)
+![Plotter Driver Layout](images/schematic.PNG)
 
 
 ## References
